@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body{
+    background-color: green;
+    background-image: url(imagens/abstract-uv-ultraviolet-light-composition.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+main{
+    height: 100vh;
+    position: relative;   
+}
+
+section#telemovel{
+    
+    height: 544px;
+    width: 480px;
+    height: 544px;
+    width: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(imagens/iphone14.png);
+    
+}
+iframe#tela{
+    position: relative;
+    top: 31.5px;
+    left: 129.1px;
+    border-radius: 30px 30px 30px 30px;
+    width: 223px;
+    height: 480px;
+    
+}
+
+section#dyn{
+    width: 68px;
+    height: 20px;
+    position: relative;
+    top: -79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(imagens/dyn.png) no-repeat top center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+section#redes-sociais>a>img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.332);
+    width: 60px;
+    margin: 20px;
+    box-sizing: border-box;
+ 
+}
+section#redes-sociais{
+    text-align: right;
+    padding-top: 70px;
+    padding-right: 20px;
+}
+
+section#redes-sociais>a>img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: translate(-4px,-4px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.4s, border 0.3s;
+}
